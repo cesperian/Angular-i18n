@@ -1,16 +1,11 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
-  template: `
-    <h1>Welcome to {{title}}!</h1>
-
-    <router-outlet />
-  `,
+  imports: [],
+  templateUrl: './app.component.html',
   styles: [],
 })
 export class AppComponent {
-  title = 'Angular-i18n';
+
 }
