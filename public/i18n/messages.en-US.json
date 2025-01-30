@@ -1,0 +1,9 @@
+{
+    "books": {
+        "hitchhiker": "The Hitchhiker's Guide to the Galaxy",
+        "restaurant": "The Restaurant at the End of the Universe",
+        "universe": "Life, the Universe and Everything",
+        "fish": "So Long, and Thanks for All the Fish",
+        "harmless": "Mostly Harmless"
+    }
+}

@@ -2,44 +2,44 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en-US" datatype="plaintext" original="ng2.template" target-language="de">
     <body>
-      <trans-unit id="3847353686173138254" datatype="html">
+      <trans-unit id="books.hitchhiker" datatype="html">
         <source>The Hitchhiker's Guide to the Galaxy</source>
         <target state="translated">Per Anhalter durch die Galaxis</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">6,7</context>
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6237825119324728932" datatype="html">
+      <trans-unit id="books.restaurant" datatype="html">
         <source>The Restaurant at the End of the Universe</source>
         <target state="translated">Das Restaurant am Ende des Universums</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">7,8</context>
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7195627869919412357" datatype="html">
+      <trans-unit id="books.universe" datatype="html">
         <source>Life, the Universe and Everything</source>
         <target state="translated">Das Leben, das Universum und der ganze Rest</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">8,9</context>
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">19</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6438207836651140610" datatype="html">
+      <trans-unit id="books.fish" datatype="html">
         <source>So Long, and Thanks for All the Fish</source>
         <target state="translated">Mach’s gut und danke für den Fisch</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">9,10</context>
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">20</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6403856096646644808" datatype="html">
+      <trans-unit id="books.harmless" datatype="html">
         <source>Mostly Harmless</source>
         <target state="translated">Größtenteils harmlos</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">10,11</context>
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">21</context>
         </context-group>
       </trans-unit>
     </body>

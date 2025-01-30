@@ -1,0 +1,9 @@
+{
+    "books": {
+        "hitchhiker": "Le guide du voyageur galactique",
+        "restaurant": "Le restaurant au bout de l'univers",
+        "universe": "La vie, l'univers et tout le reste",
+        "fish": "Au revoir et merci pour tout le poisson",
+        "harmless": "En grande partie inoffensif"
+    }
+}

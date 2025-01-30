@@ -1,7 +1,7 @@
 {
   "xliffmergeOptions": {
     "srcDir": ".",
-    "genDir": "./locales",
+    "genDir": "./public/i18n",
     "i18nFile": "messages.xlf",
     "i18nBaseFile": "messages",
     "i18nFormat": "xlf",
@@ -9,7 +9,7 @@
     "defaultLanguage": "en-US",
     "languages": ["en-US", "de", "fr"],
     "removeUnusedIds": true,
-    "supportNgxTranslate": false,
+    "supportNgxTranslate": true,
     "ngxTranslateExtractionPattern": "@@|ngx-translate",
     "useSourceAsTarget": true,
     "targetPraefix": "",
