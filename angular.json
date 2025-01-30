@@ -4,6 +4,13 @@
   "newProjectRoot": "projects",
   "projects": {
     "Angular-i18n": {
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "de": "locales/messages.de.xlf",
+          "fr": "locales/messages.fr.xlf"
+        }
+      },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -41,11 +48,17 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "localize": [
+              "de",
+              "fr",
+              "en-US"
+            ],
             "outputPath": "dist/angular-i18n",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
-              "zone.js"
+              "zone.js",
+              "@angular/localize/init"
             ],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
@@ -101,5 +114,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
