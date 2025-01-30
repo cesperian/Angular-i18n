@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "extract-i18n": "ng extract-i18n",
-    "mergeXLF": "xliffmerge --profile locales/xliffmerge.json"
+    "mergeXLF": "xliffmerge --profile locales/xliffmerge.json",
+    "extractAndMerge": "npm run extract-i18n && npm run mergeXLF"
   },
   "private": true,
   "dependencies": {

@@ -16,9 +16,8 @@
     "targetSuffix": "",
     "beautifyOutput": true,
     "allowIdChange": false,
-    "autotranslate": false,
-    "apikey": "",
-    "apikeyfile": "",
+    "autotranslate": true,
+    "apikeyfile": "./keys/googleTranslateApiKey.txt",
     "verbose": false,
     "quiet": false
   }
